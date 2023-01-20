@@ -107,12 +107,12 @@
                             <li class="page_item page-item-1535"><a href="{{ route('commercial') }}">Commercial</a></li>
                             <li class="page_item page-item-1499"><a href="{{ route('industrial') }}">Industrial</a></li>
                             <li class="page_item page-item-1516"><a href="{{ route('residential') }}">Residential</a></li>
-                            <li><a href="equipment/index.html">EQUIPMENT</a></li>
+
                         </ul>
                     </li>
-                    
+
                     <li>
-                        <a href="contact-us/index.html">CONTACT</a>
+                        <a href="{{ route('contact') }}">CONTACT</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -125,35 +125,22 @@
 
 <footer>
     <div class="container">
-        <ul class="nav-footer">
-            <li><a href="index.html">Home</a></li>
-            <li>|</li>
-            <li><a href="about-us/index.html">About Kaiser</a></li>
-            <li>|</li>
-            <li><a href="projects/index.html">Projects</a></li>
-            <li>|</li>
-            <li><a href="clients/index.html">Client List</a></li>
-            <li>|</li>
-            <li><a href="equipment/index.html">Equipment</a></li>
-            <li>|</li>
-            <li><a href="news/index.html">Latest News</a></li>
-            <li>|</li>
-            <li><a href="contact-us/index.html">Contact</a></li>
-        </ul>
+
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <p>We undertake construction projects in heavy engineering, residential and commercial development and currently execute projects in different geo–political zones of the country.</p>
 
-                <p>&copy; Copyright 2023 Construction Kaiser. <a href="http://www.omatix.com/" rel="nofollow">Website Development</a> by OMATiX - <a href="privacy-policy/index.html">Privacy Policy</a> | <a href="wp-content/uploads/2019/09/ckl-quality-policy.pdf" target="_blank">Quality Policy</a> | <a href="sitemap/index.html">Sitemap</a></p>
+                <p>&copy; Copyright 2023 Baymart Construction.
+                </p>
             </div>
         </div>
     </div>
 </footer>
 
-<script src="wp-content/themes/omatix/js/jquery-1.10.2.min.js"></script>
-<script src="wp-content/themes/omatix/js/bootstrap.min.js"></script>
-<script src="wp-content/themes/omatix/js/jquery.parallax-1.1.3.js"></script>
-<script src="wp-content/themes/omatix/js/jquery.mobile.custom.min.js"></script>
+<script src="{{ asset('wp-content/themes/omatix/js/jquery-1.10.2.min.js') }}"></script>
+<script src="{{ asset('wp-content/themes/omatix/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('wp-content/themes/omatix/js/jquery.parallax-1.1.3.js') }}"></script>
+<script src="{{ asset('wp-content/themes/omatix/js/jquery.mobile.custom.min.js') }}"></script>
 <script>
     $(function(){
 
@@ -169,7 +156,7 @@
         interval: 12000
     });
 </script>
-<script type='text/javascript' src='wp-includes/js/comment-reply.mindac3.js?ver=5.6.10' id='comment-reply-js'></script>
+<script type='text/javascript' src='{{ asset('wp-includes/js/comment-reply.mindac3.js?ver=5.6.10') }}' id='comment-reply-js'></script>
 <script type='text/javascript' id='contact-form-7-js-extra'>
     /* <![CDATA[ */
     var wpcf7 = {"apiSettings":{"root":"https:\/\/www.constructionkaiser.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};

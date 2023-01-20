@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::view('/', 'pages.index')->name('index');
+Route::view('/contact-us', 'pages.contact')->name('contact');
 Route::view('/our-mission', 'pages.mission')->name('mission');
 Route::view('/company-history', 'pages.history')->name('history');
 Route::view('/commercial', 'pages.commercial')->name('commercial');
