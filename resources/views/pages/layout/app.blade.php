@@ -104,26 +104,13 @@
                     <li class="dropdown">
                         <a href="projects/index.html" class="dropdown-toggle" data-toggle="dropdown">SERVICES <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-menu-left">
-                            <li class="page_item page-item-1535"><a href="projects/commercial-2/index.html">Commercial</a></li>
-                            <li class="page_item page-item-1499"><a href="projects/industrial/index.html">Industrial</a></li>
-                            <li class="page_item page-item-1516"><a href="projects/residential-3/index.html">Residential</a></li>
+                            <li class="page_item page-item-1535"><a href="{{ route('commercial') }}">Commercial</a></li>
+                            <li class="page_item page-item-1499"><a href="{{ route('industrial') }}">Industrial</a></li>
+                            <li class="page_item page-item-1516"><a href="{{ route('residential') }}">Residential</a></li>
                             <li><a href="equipment/index.html">EQUIPMENT</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-left">
-                            <li><a href="news/index.html">NEWS</a></li>
-                            <li><a href="gallery/index.html">GALLERY</a></li>
-                        </ul>
-                    </li>
-
-
-                    <li>
-                        <a href="careers/index.html">CAREERS</a>
-                    </li>
-
-
+                    
                     <li>
                         <a href="contact-us/index.html">CONTACT</a>
                     </li>

@@ -15,4 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'pages.index')->name('index');
 Route::view('/our-mission', 'pages.mission')->name('mission');
 Route::view('/company-history', 'pages.history')->name('history');
+Route::view('/commercial', 'pages.commercial')->name('commercial');
+Route::view('/industrial', 'pages.industrial')->name('industrial');
+Route::view('/residential', 'pages.residential')->name('residential');
 

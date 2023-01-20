@@ -3,7 +3,7 @@
 
     <div class="container searchWrap">
         <div class="row">
-            <form role="search" method="get" id="searchform" action="https://www.constructionkaiser.com/">
+            <form role="search" method="get" id="searchform" action="/">
                 <div>
                     <input type="text" value="" name="s" id="s" placeholder="Search here..." />
                     <button type="submit" class="btn btn-success">
@@ -28,7 +28,7 @@
                                     <h2>Sharing your vision. Building your success.</h2>
                                 </div>
                                 <br><br>
-                                <p><a href="about-us/company-history/index.html" class="btn btn-warning btn-lg">LEARN MORE</a></p>
+                                <p><a href="{{ route('history') }}" class="btn btn-warning btn-lg">LEARN MORE</a></p>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                                     <h2>Building Value With<br /> a Vision</h2>
                                 </div>
                                 <br><br>
-                                <p><a href="about-us/company-history/index.html" class="btn btn-warning btn-lg">LEARN MORE</a></p>
+                                <p><a href="{{ route('history') }}" class="btn btn-warning btn-lg">LEARN MORE</a></p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                                     <h2>Highest degree of<br /> safety and quality</h2>
                                 </div>
                                 <br><br>
-                                <p><a href="about-us/company-history/index.html" class="btn btn-warning btn-lg">LEARN MORE</a></p>
+                                <p><a href="{{ route('history') }}" class="btn btn-warning btn-lg">LEARN MORE</a></p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                         <div class="thumbnail-caption">
                             <h3>Industrial</h3>
                             <p style="height:130px;">CKL undertakes industrial projects across various sectors all over London, from telecommunications to oil and gas and beyond. </p>
-                            <a href="projects/industrial/index.html" class="btn btn-success btn-lg">View Projects</a>                            </div>
+                            <a href="{{ route('industrial') }}" class="btn btn-success btn-lg">View Projects</a>                            </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -94,7 +94,7 @@
                         <div class="thumbnail-caption">
                             <h3>Commercial</h3>
                             <p style="height:130px;">We have worked with the biggest brands all over London to bring to life, across various sectors, commercial developmental projects. </p>
-                            <a href="projects/commercial/index.html" class="btn btn-success btn-lg">View Projects</a>                            </div>
+                            <a href="{{ route('commercial') }}" class="btn btn-success btn-lg">View Projects</a>                            </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -103,7 +103,7 @@
                         <div class="thumbnail-caption">
                             <h3>Residential</h3>
                             <p style="height:130px;">From multi residential estates to single units, executing the most complicated designs, we take pride in our track record of bringing multi-dimensional residential designs to reality. </p>
-                            <a href="projects/residential/index.html" class="btn btn-success btn-lg">View Projects</a>                            </div>
+                            <a href="{{ route('residential') }}" class="btn btn-success btn-lg">View Projects</a>                            </div>
                     </div>
                 </div>
             </div>
