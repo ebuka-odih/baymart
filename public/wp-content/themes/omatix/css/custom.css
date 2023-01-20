@@ -1,0 +1,75 @@
+/* =Main Contact
+--------------------------------------------------------------------------------------------------*/
+.contact-form {
+    width: 100%;
+}
+
+.contact-form .captcha_main {
+    position: relative!important;
+}
+
+.contact-form #captchaimg {
+    position: absolute!important;
+    right: 4px!important;
+    top: 4px!important;
+}
+
+.contact-form .required_text {
+    color: #999999!important;
+    float: left!important;
+    font-size: 12px!important;
+    font-style: italic!important;
+    margin-top: 15px!important;
+}
+
+.contact-form input[type=text], .contact-form textarea, .contact-form select{
+    background: none!important;
+    border: none!important;
+    color: #939494!important;
+    font: 12px/18px Arial,Helvetica,sans-serif!important;
+    width: 100%!important;
+	height:auto!important;
+}
+
+.contact-form .field {
+	background: none repeat scroll 0 0 #E9EAEA!important;
+	border: medium none!important;
+	margin-bottom: 7px!important;
+	padding: 12px 15px!important;
+	height:auto!important;
+}
+
+.contact-form select {
+    -moz-appearance: none!important;
+    /* background: url("../images/select_arrow.png") no-repeat scroll 605px center #E9EAEA!important;*/
+    text-indent: 0.01px!important;
+    text-overflow: ""!important;
+    width: 100%!important;
+}
+
+.contact-form .err {
+    color: #990000!important;
+}
+
+.contact-form .err ul, .contact-form .err ul li{
+background:none;
+}
+
+.contact-form input[type="button"]{
+    cursor: pointer!important;
+    float: right!important;
+	margin-top:8px!important;
+	padding:14px 24px!important;
+	box-sizing: content-box!important;
+	-webkit-border-radius: 4px; border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px!important;
+}
+
+/* =Quick Contact
+--------------------------------------------------------------------------------------------------*/
+.contact-form.qc textarea {
+    height: 85px!important;
+}
+
+/* =Responsive Video
+--------------------------------------------------------------------------------------------------*/
+video { width: 100% !important; height: auto !important; }
