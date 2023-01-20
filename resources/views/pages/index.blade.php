@@ -113,8 +113,21 @@
     <section style="background-image: url('img/img1.jp')"  id="map" class="bg-01">
 
         <div class="container">
+            <style>
+                .sm-img{
+                    height: 350px;
+                    width: 450px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    .sm-img{
+                        height: 350px;
+                        width: 330px;
+                    }
+                }
+            </style>
             <div class="col-sm-6">
-                <img height="350" width="450" src="{{ asset('img/img1.jpg') }}" alt="">
+                <img class="sm-img"  src="{{ asset('img/img1.jpg') }}" alt="">
             </div>
 
             <div class="col-sm-6">

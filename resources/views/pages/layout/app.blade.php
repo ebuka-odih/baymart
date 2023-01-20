@@ -64,7 +64,9 @@
 <header>
     <div class="tobbar">
         <div class="container">
-            <div class="pull-left hidden-xs hidden-sm"><img src="wp-content/themes/omatix/img/iso.jpg" style="max-width:250px; margin:18px 0 14px 204px;"></div>
+            <div class="pull-left hidden-xs hidden-sm">
+                <img src="wp-content/themes/omatix/img/iso.jpg" style="max-width:250px; margin:18px 0 14px 204px;">
+            </div>
             <!--<div class="sb-units pull-right hidden-xs">
                 <a href="http://www.mekaiser.com/" target="_blank"><img src="/wp-content/uploads/2015/12/me-logo.jpg" style="max-width:60px;"></a>
                 <a href="http://www.kaiserfoundationsd.org/" target="_blank"><img src="/wp-content/uploads/2015/12/kl_logo.png" style="max-width:80px;"></a>
@@ -93,10 +95,16 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        </button>
-                <a class="navbar-brand" href="index.html"><img src="wp-content/themes/omatix/img/logo.png" alt="Construction Kaiser"></a>                    </div>
+                    <span class="icon-bar"></span>
+                </button>
+                <br>
+                <a class="navbar-brand" href="{{ route('index') }}">
+                    <h3 style="font-weight: bolder">Baymart Constructions</h3>
+                </a>
+            </div>
 
             <div class="collapse navbar-collapse">
+
                 <ul class="nav navbar-nav navbar-right">
 
                     <li class="dropdown">
