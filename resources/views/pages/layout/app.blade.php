@@ -72,19 +72,6 @@
                 <a href="http://www.kaiserfoundationsd.org/" target="_blank"><img src="/wp-content/uploads/2015/12/kl_logo.png" style="max-width:80px;"></a>
 
             </div>-->
-            <!--<div class="location">We are located in Abuja, Lagos and Port-Harcourt</div>-->
-            <div class="social"><span class="hidden-xs">connect with us</span> <br />
-                <a href="http://www.facebook.com/constructionkaiserlimited" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/construction-kaiser-limited-ckl/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a>
-                <a href="https://twitter.com/const_kaiser" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.instagram.com/construction_kaiser/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
-
-                </a>
-
-            </div>
 
         </div>
     </div>
@@ -110,15 +97,8 @@
                     <li class="dropdown">
                         <a href="about-us/index.html" class="dropdown-toggle" data-toggle="dropdown">ABOUT <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-menu-left">
-                            <li class="page_item page-item-1378"><a href="about-us/board-of-directors/index.html">Board of Directors</a></li>
-                            <li class="page_item page-item-45"><a href="about-us/company-history/index.html">Company History</a></li>
-                            <li class="page_item page-item-1360"><a href="about-us/mission-vision-core-values/index.html">Mission, Vision &#038; Core Values</a></li>
-                            <li class="page_item page-item-1365"><a href="about-us/policies/index.html">Policies</a></li>
-                            <li class="page_item page-item-46"><a href="about-us/management/index.html">Management</a></li>
-                            <li class="page_item page-item-625"><a href="about-us/affiliates/index.html">Affiliates</a></li>
-                            <li class="page_item page-item-1676"><a href="about-us/key-technical-personnel/index.html">Key Technical Personnel</a></li>
-                            <li><a href="clients/index.html">CLIENTS</a></li>
-                            <li><a href="brochures/index.html">BROCHURES</a></li>
+                            <li class="page_item page-item-45"><a href="{{ route('history') }}">Company History</a></li>
+                            <li class="page_item page-item-1360"><a href="{{ route('mission') }}">Mission, Vision &#038; Core Values</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
