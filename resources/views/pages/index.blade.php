@@ -136,7 +136,7 @@
                 <p>Founded in London, England in June 1993, <strong>Construction Kaiser Limited</strong> is an indigenous building and civil engineering construction company. Starting as a small 5-man organization carrying out minor renovation works, we have grown to become a national force in the London construction industry.
                 </p>
                 <br>
-                <div><a href="about-us/company-history/index.html" class="btn btn-warning btn-lg">LEARN MORE</a></div>
+                <div><a href="{{ route('history') }}" class="btn btn-warning btn-lg">LEARN MORE</a></div>
             </div>
         </div>
     </section>
