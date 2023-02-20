@@ -86,7 +86,7 @@
                 </button>
                 <br>
                 <a class="navbar-brand" href="{{ route('index') }}">
-                    <h3 style="font-weight: bolder">Baymart Constructions</h3>
+                    <h3 style="font-weight: bolder">Bam Royal Group</h3>
                 </a>
             </div>
 
