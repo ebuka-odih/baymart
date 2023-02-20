@@ -19,11 +19,11 @@
                 <h5>Get in touch today</h5>
                 <p>Don’t hesitate to reach out with the contact information below, or send a message using the form.
                 </p>
-                
+
 
 
                 <ul>
-                    <li>Email: <a href="mailto:info@baymart.co">info@baymart.co</a></li>
+                    <li>Email: <a href="mailto:info@baymart.co">info@bamroyalgroup.com</a></li>
                     <li>Address: 114 Powerscroft Road,
                         London, E5 0PP, United Kingdom</li>
                 </ul>

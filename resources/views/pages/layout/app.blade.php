@@ -130,7 +130,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <p>We undertake construction projects in heavy engineering, residential and commercial development and currently execute projects in different geo–political zones of the country.</p>
 
-                <p>&copy; Copyright 2023 Baymart Construction.
+                <p>&copy; Copyright 2023 Bam Royal Group.
                 </p>
             </div>
         </div>
